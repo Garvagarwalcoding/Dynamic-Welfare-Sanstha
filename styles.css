@@ -77,19 +77,19 @@ nav a:hover {
     margin-bottom: 15px;
     color: #0b3d91;
 }
-
 .team-photo {
+    width: 100%;
     max-width: 600px;
     border-radius: 12px;
-    margin-bottom: 20px;
-    margin-left: 250px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.team-text{
+.team-text {
     text-align: left;
-    margin-left: 20 px;
-    margin-right: 10 px;
+    margin-left: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
