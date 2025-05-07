@@ -80,6 +80,7 @@ nav a:hover {
 .team-photo {
     width: 100%;
     max-width: 600px;
+    height: auto;
     border-radius: 12px;
     margin: 20px auto;
     display: block;
@@ -162,6 +163,7 @@ ul {
 }
 
 /* === Responsive Fixes === */
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -183,6 +185,11 @@ ul {
     .hero-text {
         text-align: center;
     }
+        .team-photo {
+        width: 100%; /* Ensure the image takes up 100% of the container's width on smaller screens */
+        max-width: 90%; /* Set a maximum width of 90% of the screen size */
+        margin: 15px auto; /* Adjust margins for smaller screens */
+        }
 }
 /* === Footer === */
 footer {
